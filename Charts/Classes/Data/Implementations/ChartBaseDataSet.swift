@@ -298,6 +298,15 @@ public class ChartBaseDataSet: NSObject, IChartDataSet
         return drawValuesEnabled
     }
     
+    /// Set this to true to draw icons on the chart
+    public var drawIconsEnabled = false
+    
+    /// Returns true if icons drawing is enabled, false if not
+    public var isDrawIconsEnabled: Bool
+    {
+        return drawIconsEnabled
+    }
+    
     /// Set the visibility of this DataSet. If not visible, the DataSet will not be drawn to the chart upon refreshing it.
     public var visible = true
     

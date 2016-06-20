@@ -184,6 +184,9 @@ public protocol IChartDataSet
     /// Returns true if y-value drawing is enabled, false if not
     var isDrawValuesEnabled: Bool { get }
     
+    /// Returns true if icons drawing is enabled, false if not
+    var isDrawIconsEnabled: Bool { get }
+    
     /// Set the visibility of this DataSet. If not visible, the DataSet will not be drawn to the chart upon refreshing it.
     var visible: Bool { get set }
     
